@@ -1,0 +1,30 @@
+﻿/*
+ * Created by SharpDevelop.
+ * User: Mahalakshmi
+ * Date: 3/10/2016
+ * Time: 12:45 PM
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+using System.Windows.Forms;
+
+namespace DocuSignCodingChallenge
+{
+	/// <summary>
+	/// Class with program entry point.
+	/// </summary>
+	internal sealed class Program
+	{
+		
+		[STAThread]
+		private static void Main(string[] args)
+		{
+			Application.EnableVisualStyles();
+			Application.SetCompatibleTextRenderingDefault(false);
+			Application.Run(new DressUP());			
+			
+		}		
+		
+	}
+}
